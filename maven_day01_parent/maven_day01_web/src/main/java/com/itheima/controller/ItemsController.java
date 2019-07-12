@@ -18,7 +18,10 @@ public class ItemsController {
         Items items = itemsService.findById(1);
         model.addAttribute("item", items);
         return "itemDetail";
+    }
 
-
+    public void test(){
+        int i=1;
+        i+=10;
     }
 }
